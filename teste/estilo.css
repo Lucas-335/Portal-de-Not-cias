@@ -1,0 +1,149 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	margin: 0px;
+	font-family: helvetica;
+	background: url("imagens/fundo.png") left top repeat-x;
+}
+
+#container{
+	width: 800px;
+	margin:auto;
+}
+
+/*********************** CABEÇALHO ***********************/
+#cabecalho{
+	height: 238px;
+	
+	margin: auto;
+	padding-top: 1.8em;
+	background: url("imagens/detalhe-topo.png") right top no-repeat;
+	}
+
+#cabecalho ul{
+	list-style-type: none;
+	float: left;
+	padding: 0px;
+	font-size: 0.9em;
+	margin-top: 30px;
+	background-color: #b10333;
+	border-radius: 2px;
+	
+}
+
+#cabecalho ul li{
+	float: left;
+}
+
+#cabecalho a{
+	text-decoration: none;
+	color: white;
+	display: block;
+	background:  url("imagens/divisor.png") left center no-repeat;
+	
+	padding: 0.8em 1.7em;
+}
+
+#cabecalho a.primeiro{
+	background: none;
+}
+
+#cabecalho a:hover{
+	color: #69001d;
+}
+
+#cabecalho #home{
+	color: #fff;
+	background-color: #de003e;
+	border-radius: 2px;
+	cursor: text;
+}
+
+/*********************** CABEÇALHO ***********************/
+
+/*********************** CONTEÚDO ***********************/
+#conteudo{
+	
+	width: 100%;
+	float: left;
+}
+
+#conteudo .fundo{
+	background: url("imagens/fundo-caixa.png") left top;
+	padding: 0.5em;
+	margin-bottom: 0.6em;
+}
+
+#conteudo .fundo-branco{
+	background-color: white;
+	padding: 0.3em;
+}
+
+#conteudo h3{
+	display: block;
+	background: #005671;
+	padding: 0.2em;
+	color: white;
+	margin-bottom: 0.3em;	
+}
+
+/*---------------MENU---------------*/
+#conteudo .coluna-menu{
+	width: 23%;
+	float: left;
+	margin-left: 1em;
+}
+
+#conteudo .coluna-menu li{
+	list-style-type: none;
+	padding: 0.5em 1em;
+}
+
+#conteudo .coluna-menu a{
+	text-decoration: none;
+	color: black;
+	font-size: 0.9em;
+}
+/*---------------MENU---------------*/
+
+/*---------------NOTICIAS---------------*/
+#conteudo .coluna-conteudo{
+	width: 35%;
+	height: 40px;
+	float: left;
+	margin-left: 1em;
+}
+
+#conteudo .noticia-pequena{
+	padding-top: 1em;
+}
+
+#conteudo .noticia-pequena p{
+	font-size: 0.7em ;
+}
+
+#conteudo .noticia-pequena a{
+	font-size: 0.7em;
+	text-decoration: none;
+}
+
+#conteudo .noticia-pequena span{
+	margin-left: 0.5em;
+	font-size: 0.7em;
+}
+
+
+/*---------------NOTICIAS---------------*/
+
+
+
+/*********************** CONTEÚDO ***********************/
+
+#conteudo-rodape{
+	padding: 20px;
+	border: 1px solid red;
+}
+
+
